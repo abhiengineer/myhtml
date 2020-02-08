@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Form</title>
+</head>
+<body>
+	<h1 align="center">Sign UP Page</h1>
+	<form method="post" action="https://www.wikipedia.org">
+
+		
+		<div><label for="First name">First name*:</label>
+		<input id="First name" type="text" placeholder="john" required>
+		<label for="Last name">Last name:</label>
+		<input id="last name" type="text" placeholder="smith" required></div><br>
+		<div><label for="Email Id">Email Id*:</label>
+		<input id="Email Id" type="email">
+		<label for="Password">Password*:</label>
+		<input id="password" type="password" maxlength="12" required name="psd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="must contain at least one number and one uppercase and one lowercase letter,and atleast 8 and maximum 12 character"></div><br>
+		<div><label for="Image">Image:</label>
+		<input id="Image" type="file">
+		<label>DOB:<input type="date"></label></div><br>
+		<label><div>Mobile No.:<input type="tel"pattern="[0-9]{5}-[0-9]{5}" placeholder="+91" name ="pjone" required></label>
+		<label>Gender:
+		male:<input type="radio" required>
+		female:<input type="radio"></div><br></label>
+		<label><div><input type="checkbox" required>:I agree Terms & condition</div><br></label>
+		<label><button type="submit">SignUp</button></label>
+	</form>
+
+</body>
+</html>
